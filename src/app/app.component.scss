@@ -1,0 +1,50 @@
+.weatherImage {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.temperature {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.card-img-overlay {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.minImg {
+  height: 4rem;
+}
+.info-block {
+  display: flex;
+  align-items: center;
+}
+.info-block-value {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.card-body {
+  background-color: #463636;
+}
+
+.search {
+  width: 20rem;
+}
+
+:host ::ng-deep input::placeholder {
+  color: #fff !important;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.inputBar {
+  height: 3rem;
+  background: #463636;
+  border: none;
+  color: white;
+}
